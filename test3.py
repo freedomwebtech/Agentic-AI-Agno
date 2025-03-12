@@ -6,7 +6,7 @@ from agno.media import Video
 from agno.models.google import Gemini
 
 agent = Agent(
-    model=Gemini(id="gemini-2.0-flash-exp",api_key=""),
+    model=Gemini(id="gemini-2.0-flash",api_key=""),
     markdown=True,
 )
 
