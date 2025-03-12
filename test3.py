@@ -7,7 +7,7 @@ from agno.models.google import Gemini
 
 # Initialize Gemini AI agent
 agent = Agent(
-    model=Gemini(id="gemini-2.0-flash-exp",api_key="AIzaSyAapQ7JFW2GhpR5xAoil7OjAOprHxqDIF4"),
+    model=Gemini(id="gemini-2.0-flash-exp",api_key=""),
     markdown=True,
     instructions=[
          "You are an AI agent that detects construction site safety compliance.",
