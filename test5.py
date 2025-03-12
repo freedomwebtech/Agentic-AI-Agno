@@ -31,7 +31,7 @@ def analyze_frame():
     global latest_frame
 
     while True:
-        time.sleep(1)  # Adjust interval to balance performance
+        time.sleep(0.1)  # Adjust interval to balance performance
         
         with lock:
             if latest_frame is None:
