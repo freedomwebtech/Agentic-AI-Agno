@@ -6,7 +6,7 @@ from agno.models.google import Gemini  # ✅ Use Gemini, not OpenAIChat
 
 # Initialize the agent with Gemini Vision model
 agent = Agent(
-    model=Gemini(id="gemini-2.0-flash-exp", api_key="AIzaSyAapQ7JFW2GhpR5xAoil7OjAOprHxqDIF4"),  # ✅ Correct placement of API key
+    model=Gemini(id="gemini-2.0-flash-exp", api_key=""),  # ✅ Correct placement of API key
     agent_id="image-to-text",
     name="Image to Text Agent",
     tools=[DuckDuckGoTools()],
